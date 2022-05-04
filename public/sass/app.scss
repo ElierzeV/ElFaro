@@ -1,0 +1,49 @@
+.navbar, footer{
+    background-color: rgb(177, 177, 177) !important;
+    color: rgb(22, 22, 22) !important;
+}
+.cBlanco{
+    color: white !important;
+}
+.imagenFondo{
+    background-image: #000;
+    color: #fff;
+
+}
+.fa-computer-mouse{
+    font-size: 48px;
+}
+.iconosRedes{
+    font-size: 24px;
+}
+
+li{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    
+}
+li a:hover{
+    color: rgb(177, 177, 177);
+    background-color: rgb(22, 22, 22);
+    border-radius: 5px;
+    padding: 5px;
+}
+li a:active{
+    color: rgb(177, 177, 177);
+}
+
+.pad{
+    margin-top: 80px;
+}
+
+@media(max-width:768px){
+    .ocultarSm{
+        display: none;
+    }
+    
+}
+
